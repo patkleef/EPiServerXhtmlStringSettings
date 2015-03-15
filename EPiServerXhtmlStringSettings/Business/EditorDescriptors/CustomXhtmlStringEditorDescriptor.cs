@@ -23,7 +23,7 @@ namespace EPiServerXhtmlStringSettings.Business.EditorDescriptors
 
             dynamic data = metadata.CustomEditorSettings["uiParams"];
             var dictionary = (Dictionary<string, object>) data.GetType().GetProperty("inlineSettings").GetValue(data, null);
-            //dictionary["body_class"] = dictionary["body_class"] + " container";
+            dictionary["body_class"] = dictionary["body_class"] + " container";
         }
     }
 }
