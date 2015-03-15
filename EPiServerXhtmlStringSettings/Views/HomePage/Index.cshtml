@@ -1,0 +1,16 @@
+﻿@model EPiServerXhtmlStringSettings.Models.Pages.HomePage
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    <link href="~/Static/style.css" rel="stylesheet" type="text/css" />
+</head>
+<body class="container">
+    <div>
+        @Html.PropertyFor(p => p.MainBody)
+    </div>
+</body>
+</html>

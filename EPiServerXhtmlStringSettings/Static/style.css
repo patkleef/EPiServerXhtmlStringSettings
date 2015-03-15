@@ -1,0 +1,5 @@
+﻿body.container ul li {
+    color: red;
+    font-weight: bold;
+    list-style-type: square;
+}
